@@ -18,8 +18,9 @@
             {
                 Console.Clear();
                 Highlight("\nMain Menu\n");
-                Highlight("\n^r^[0] ^w^Exit");
                 Highlight("\n^c^[1] ^w^Play");
+                Highlight("\n^c^[2] ^w^Select Questions");
+                Highlight("\n^r^[0] ^w^Exit");
                 Highlight("\n\n\n>>> ");
                 string temp;
                 temp = ReadLower();
@@ -90,12 +91,35 @@
 
         static void Play()
         {
-            for (int i = 0; i < questions.Length; i++)
+            int[] order = new int[questions.Length];
+            for (int i = 0; i < order.Length; i++) order[i] = i;
+            int temp;
+            int index1;
+            int index2;
+            Random rand = new Random();
+            for (int i  = 0; i < order.Length; i++)
             {
-                Console.WriteLine("Question:\n" + questions[i]);
-                Console.WriteLine("Answer\n" + answers[i]);
+                index1 = rand.Next(order.Length);
+                do
+                {
+                    index2 = rand.Next(order.Length);
+                } while (index1 == index2);
+                temp = order[index1];
+                order[index1] = order[index2];
+                order[index2] = temp;
             }
-            Console.ReadLine();
+            foreach (int i in order)
+            {
+                Console.Clear();
+                Console.WriteLine("Question:\n" + questions[i]);
+                Highlight("^c^Press ENTER to reveal answer >>>  ^g^");
+                Console.ReadLine();
+                Highlight("^w^\n");
+                Console.WriteLine("Answer\n" + answers[i]);
+                Highlight("^c^Press ENTER to go to next question >>>  ^g^");
+                Console.ReadLine();
+                Highlight("^w^\n");
+            }
         }
 
         static string GetFileName(int section)
@@ -135,20 +159,26 @@
             {
                 switch (s)
                 {
-                    case "g":
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        break;
-                    case "y":
-                        Console.ForegroundColor = ConsoleColor.Yellow;
+                    case "b":
+                        Console.ForegroundColor = ConsoleColor.Blue;
                         break;
                     case "c":
                         Console.ForegroundColor = ConsoleColor.Cyan;
                         break;
+                    case "g":
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+                        break;
                     case "r":
                         Console.ForegroundColor = ConsoleColor.Red;
                         break;
+                    case "s":
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        break;
                     case "w":
                         Console.ForegroundColor = ConsoleColor.White;
+                        break;
+                    case "y":
+                        Console.ForegroundColor = ConsoleColor.Yellow;
                         break;
                     default:
                         Console.Write(s);
