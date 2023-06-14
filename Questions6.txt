@@ -66,7 +66,7 @@ Oops, no answer in this one yet from question 6 yay!
 
 Q.
 What actions should a technician take if illegal content is discovered on the hard drive of
-a customer’s computer?
+a customer's computer?
 A.
 Oops, no answer in this one yet from question 6 yay!
 
@@ -106,6 +106,6 @@ Oops, no answer in this one yet from question 6 yay!
 
 Q.
 What do the following file permissions tell us about the security of a the file?
-rw-r-x—x
+rw-r-x-x
 A.
 Oops, no answer in this one yet from question 6 yay!

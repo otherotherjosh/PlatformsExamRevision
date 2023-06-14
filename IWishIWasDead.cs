@@ -156,11 +156,11 @@
             {
                 Console.Clear();
                 Highlight("^m^Question:^w^\n" + questions[i]);
-                Highlight("^g^Press ENTER to reveal answer >>>  ^l^");
+                Highlight("^g^\nPress ENTER to reveal answer >>>  ^l^");
                 Console.ReadLine();
                 Highlight("^w^\n");
                 Highlight("^s^Answer^w^\n" + answers[i]);
-                Highlight("^g^Press ENTER to go to next question >>>  ^l^");
+                Highlight("^g^Press ENTER to go to next >>>  ^l^");
                 Console.ReadLine();
                 Highlight("^w^\n");
             }
