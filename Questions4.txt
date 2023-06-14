@@ -1,6 +1,61 @@
 // chapter 7 and 8 questions
 
 Q.
-Question from Study Questions 4
+Why are SODIMMs well suited for laptops?
+A.
+Oops, no answer
+
+Q.
+What two sources of information are used to enable geocaching, geotagging and device tracking
+on Android and iOS devices? 
+A.
+Oops, no answer
+
+Q.
+What is throttling and why do some laptops use it?
+A.
+Oops, no answer
+
+Q.
+In what ways are laptop motherboards different to desktop motherboards?
+A.
+Oops, no answer
+
+Q.
+Name one laptop component which would be considered an FRU and one which would be
+considered a CRU?
+A.
+Oops, no answer
+
+Q.
+What are the disadvantages of sharing a directly connected printer from a computer?
+A.
+Oops, no answer
+
+Q.
+What is a potential disadvantage of replacing printer consumables with parts or components
+that are not recommended by the manufacturer?
+A.
+Oops, no answer
+
+Q.
+Compare the advantages and disadvantages of laser printers and inkjet printers.
+A.
+Oops, no answer
+
+Q.
+Why would a company decide to use a print server?
+A.
+Oops, no answer
+
+Q.
+After applying a solution to a printer problem, a technician restarts the printer and prints a test
+page. Which step of the troubleshooting process is the technician applying?
+A.
+Oops, no answer
+
+Q.
+A technician recorded that a new fuser roller unit was installed in a laser printer to solve a
+printing problem. Which step in the troubleshooting process did the technician just perform?
 A.
 Oops, no answer
