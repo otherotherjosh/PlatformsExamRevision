@@ -18,7 +18,7 @@
             do
             {
                 Console.Clear();
-                ShowQuestionSelect();
+                ShowQuestionSelect("display");
                 Console.WriteLine();
                 Highlight("\n^c^[1] ^w^Play");
                 Highlight("\n^c^[2] ^w^Question Select");
@@ -58,9 +58,11 @@
             do
             {
                 Console.Clear();
-                ShowQuestionSelect();
+                ShowQuestionSelect("search");
                 Console.WriteLine("\n");
-                Highlight("Enter number to toggle >>>  ^c^");
+                Highlight("\n^c^[1-6] ^w^Toggle questions");
+                Highlight("\n^r^[0] ^w^Back to menu");
+                Highlight("\n\n\n>>>  ^c^");
                 userInput = ReadLower();
                 key = Convert.ToInt32(userInput);
                 if (sections.Contains(key))
@@ -76,15 +78,33 @@
             } while (key != 0);
         }
 
-        static void ShowQuestionSelect()
+        static void ShowQuestionSelect(string mode)
         {
             Highlight("^w^Study questions: ");
-            for (int i = 1; i <= 6; i++)
-            {
-                if (sections.Contains(i)) Highlight("w");
-                else Highlight("g");
-                Console.Write(" " + i);
-                if (i != 6) Console.Write(",");
+            if (mode == "search")
+            {   // displays in question select screen
+                for (int i = 1; i <= 6; i++)
+                {
+                    if (sections.Contains(i)) Highlight($"c^ [{i}] ");
+                    else Highlight($"g^ [{i}] ");
+                    //if (i != 6) Console.Write(",");
+                }
+            }
+            else if (mode == "display")
+            {   // displays in main menu
+                switch (sections.Length)
+                {
+                    case 0:
+                        Highlight("^g^none");
+                        break;
+                    default:
+                        foreach (int i in sections)
+                        {
+                            Console.Write($" {i}");
+                            if (Array.IndexOf(sections, i) != sections.Length - 1) Console.Write(", ");
+                        }
+                        break;
+                }
             }
             Highlight("w");
         }
@@ -135,6 +155,7 @@
 
         static void Play()
         {
+            Console.WriteLine($"DEBUG: there are {questions.Length} questions");
             int[] order = new int[questions.Length];
             for (int i = 0; i < order.Length; i++) order[i] = i;
             int temp;
@@ -163,6 +184,12 @@
                 Highlight("^g^Press ENTER to go to next >>>  ^l^");
                 Console.ReadLine();
                 Highlight("^w^\n");
+            }
+            if (questions.Length == 0)
+            {
+                Console.Clear();
+                Highlight("^g^\n\n\n\n\n\t\tbruh");
+                Thread.Sleep(3000);
             }
         }
 
