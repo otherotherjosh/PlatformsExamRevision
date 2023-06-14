@@ -4,89 +4,108 @@ Q.
 Name 3 types of attack that TCP/IP is vulnerable to
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What is malware?
 A.
 Its bad, thats what it is...
+
 Q.
 What is phishing?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What is spam?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What is a Zero-Day attack? 
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 How can computer users protect themselves from malicious software? 
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What are some common techniques for protecting physical equipment?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 How can you protect data on computers?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What settings can you configure using Windows Local Security Policy to make your
 computers more secure?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What are two examples of displaying professional communication skills while talking to
 a customer?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What is the difference between personal software licences and commercial software
 licences?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 During the process of troubleshooting, a technician gains access to customer private
 information. What is expected that the technician do with this information?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What actions should a technician take if illegal content is discovered on the hard drive of
 a customer’s computer?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 When performing computer forensics, what can be prevented with a properly and
 carefully documented chain of custody?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 A technician is analysing a computer that may have been used for illegal activity. What
 are two examples of volatile data?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What are three pieces of information a level one technician should gather from a
 customer?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What is an SLA and what is an example of its typical contents?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 hich two location data sources can locator apps use to determine the position of a
 mobile device?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
 What do the terms "jailbreaking" and "rooting" mean?
 A.
 Oops, no answer in this one yet from question 6 yay!
+
 Q.
-What do the following file permissions tell us about the security of a the file
+What do the following file permissions tell us about the security of a the file?
 rw-r-x—x
 A.
 Oops, no answer in this one yet from question 6 yay!
