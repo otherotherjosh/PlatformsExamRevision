@@ -18,6 +18,7 @@
             do
             {
                 Console.Clear();
+                Header("menu");
                 ShowQuestionSelect("display");
                 Console.WriteLine();
                 Highlight("\n^c^[1] ^w^Play");
@@ -58,6 +59,7 @@
             do
             {
                 Console.Clear();
+                Header("qselect");
                 ShowQuestionSelect("search");
                 Console.WriteLine("\n");
                 Highlight("\n^c^[1-6] ^w^Toggle questions");
@@ -188,8 +190,14 @@
             if (questions.Length == 0)
             {
                 Console.Clear();
-                Highlight("^g^\n\n\n\n\n\t\tbruh");
+                Highlight("^g^\n\n\n\n\n\t\t bruh");
                 Thread.Sleep(3000);
+            }
+            else
+            {
+                Console.Clear();
+                Highlight("\n\n\n\t^g^End of questions");
+                Thread.Sleep(1000);
             }
         }
 
@@ -261,6 +269,23 @@
                         Console.Write(s);
                         break;
                 }
+            }
+        }
+
+        static void Header(string screen)
+        {
+            switch (screen)
+            {
+                case "menu":
+                    Highlight("\n  ^b^█▀█ █░░ ▄▀█ ▀█▀ █▀▀ █▀█ █▀█ █▀▄▀█   █▀█ ▄▀█ █^r^░^b^█ ^^^█░░ ▀ ^r^█▀   █▀█ █▀▀ █▀█ █ █░░ █▀█ █░█ █▀   █▀█ ▄▀█ █▀█ █▀▀ █▀█");
+                    Highlight("\n  ^b^█▀▀ █▄▄ █▀█ ░█░ █▀░ █▄█ █▀▄ █░▀░█   █▀▀ █▀█ █^^^▄^^^█ ^r^█▄▄ ░ ^^^▄█   █▀▀ ██▄ █▀▄ █ █▄▄ █▄█ █▄█ ▄█   █▀▀ █▀█ █▀▀ ██▄ █▀▄");
+                    Highlight("^w^\n\n\n");
+                    break;
+                case "qselect":
+                    Highlight("\n  ^b^█▀█ █░█ █▀▀ █▀ ▀█▀ █ █▀█ █^^^▄^^^░^^^█   █^r^▀ █▀▀ █░░ █▀▀ █▀▀ ▀█▀");
+                    Highlight("\n  ^b^▀▀█ █▄█ ██▄ ▄█ ░█░ █ █▄█ █^r^░^b^▀^r^█   ▄^^^█ ██▄ █▄▄ ██▄ █▄▄ ░█");
+                    Highlight("^w^\n\n\n");
+                    break;
             }
         }
 
