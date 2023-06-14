@@ -1,0 +1,34 @@
+// chapter 1 and 2 questions
+
+Q.
+What are two factors that must be considered when choosing a computer case?
+A.
+- the number of internal drive locations
+- the size of the motherboard and the power supply
+
+Q.
+Which component controls the communications and interactions between the CPU and other components on the motherboard?
+A.
+chipset
+
+Q.
+Name at least three interfaces used for connecting video from computers to monitors.
+A.
+- HDMI
+- VGA
+- DisplayPort
+
+Q.
+Name at least three input devices for computers.
+A.
+- Mouse
+- Keyboard
+- Touchpad
+- Scanner
+
+Q.
+Name at least three output devices for computers.
+A.
+- Monitor
+- Headphones/Speakers
+- Printer
