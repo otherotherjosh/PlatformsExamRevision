@@ -3,18 +3,18 @@
 Q.
 What are two advantages of using PC virtualization?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 A small company is considering moving many of its data center functions to the
 cloud. What are three advantages of this plan?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 What difference is there between Type 1 and Type 2 hypervisors?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 What do the following acronyms stand for?
@@ -22,17 +22,17 @@ What do the following acronyms stand for?
 - IaaS
 - PaaS
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 What are two advantages of the NTFS file system compared with FAT32?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 What do the acronyms CLI and GUI stand for?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 What do the following terms mean
@@ -41,20 +41,20 @@ What do the following terms mean
 - Multiuse
 - Multitasking
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 Which key, when pressed during the boot process, will allow the user to access boot
 options menu?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 A technician has been asked to reinstall the OS on a computer that has a corrupted
 operating system. The technician inserts the installation media in the optical drive.
 What would be the most likely action the technician should perform next?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 A user reports that a PC is losing files, not opening some files, and is performing
@@ -62,29 +62,29 @@ slowly. The technician suspects problems with the hard drive. What should be don
 to protect the data that is on the PC and to determine the source of the problem,
 without risking total drive failure?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 After solving a problem on a computer, a technician checks the event log to ensure
 that there are no new error messages. At which step of the troubleshooting process
 is this action taking place?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 Give an example of a closed-ended question a technician may ask a user
 experiencing technical problems?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 Give an example of an open-ended question a technician may ask a user
 experiencing technical problems?
 A.
-Oops, no answer
+Answer from Study Questions 5
 
 Q.
 Compare and contrast Windows Remote Desktop and Windows Remote Assistant.
 A.
-Oops, no answer
+Answer from Study Questions 5
 

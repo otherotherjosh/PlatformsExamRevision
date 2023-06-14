@@ -3,12 +3,12 @@
 Q.
 What are the 7 layers of the OSI model of networking?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 Which network service automatically assigns IP addresses to devices on the network?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 What do the following stand for?
@@ -17,62 +17,62 @@ What do the following stand for?
 - MAN
 - LAN
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 Describe what a MAC address is and how it is used.
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 Which type of server would support the SMTP, POP, and IMAP protocols?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 Which three devices are usually integrated into a multipurpose network device? (the device we
 use at home for our network)
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 A new computer workstation has been installed in a small office. The user of the workstation
 can print a document using a network printer on the LAN, but cannot access the Internet. What
 is a possible cause of the problem?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 What is the problem if a computer automatically configures an IP address in the 169.254.x.x
 address range?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 What does the command PING do?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 A user can print to a printer that is on the same network, but the traffic of the user cannot reach
 the Internet. What is a possible cause of the problem?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 What is the correct compressed format of the IPv6 address
 2001:0db8:eeff:000a:0000:0000:0000:0001?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 What is the purpose of a DNS server?
 A.
-Oops, no answer
+Answer from Study Questions 3
 
 Q.
 After having talked to the customer, a network technician suspects that an invalid IP address is
 the most likely cause of a network issue. Which step of the troubleshooting process does this
 represent?
 A.
-Oops, no answer
+Answer from Study Questions 3
