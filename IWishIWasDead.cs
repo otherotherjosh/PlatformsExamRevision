@@ -128,21 +128,6 @@
             return fileName;
         }
 
-        /* static void TestRead(string[] questions, string fileName)
-         * {
-         *     StreamReader r = new StreamReader(fileName);
-         *     int i = 0;
-         *     while (!r.EndOfStream)
-         *     {
-         *         Array.Resize(ref testReader, testReader.Length + 1);
-         *         testReader[i] = r.ReadLine();
-         *         if (!(testReader[i] == "" || testReader[i].StartsWith("//"))) Console.WriteLine($"Line {i}: \"{testReader[i]}\"");
-         *         i++;
-         *     }
-         *     r.Close();
-         * }
-         */
-
         public static void Highlight(string text)
         {
             string[] split = text.Split('^');
