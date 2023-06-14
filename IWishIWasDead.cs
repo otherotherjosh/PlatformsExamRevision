@@ -2,7 +2,7 @@
 {
     internal class IWishIWasDead
     {
-        static int[] sections = new int[] { 1 };
+        static int[] sections = new int[] { 1, 2, 3, 4, 5, 6 };
         static string[] questions = new string[0];
         static string[] answers = new string[0];
 
@@ -17,9 +17,9 @@
             do
             {
                 Console.Clear();
-                Highlight("\nMain Menu\n");
+                Highlight("\n^w^Main Menu\n");
                 Highlight("\n^c^[1] ^w^Play");
-                Highlight("\n^c^[2] ^w^Select Questions");
+                Highlight("\n^c^[2] ^w^Question Select");
                 Highlight("\n^r^[0] ^w^Exit");
                 Highlight("\n\n\n>>> ");
                 string temp;
@@ -41,9 +41,18 @@
                         GetQuestions(sections);
                         Play();
                         break;
+                    case 2:
+                        // QuestionSelect();
+                        break;
                 }
             } while (key != 0);
         }
+
+        /* static void QuestionSelect()
+         * {
+         * 
+         * }
+         */
 
         static void GetQuestions(int[] sections)
         {
@@ -111,12 +120,12 @@
             foreach (int i in order)
             {
                 Console.Clear();
-                Console.WriteLine("Question:\n" + questions[i]);
-                Highlight("^c^Press ENTER to reveal answer >>>  ^g^");
+                Highlight("^m^Question:^w^\n" + questions[i]);
+                Highlight("^g^Press ENTER to reveal answer >>>  ^l^");
                 Console.ReadLine();
                 Highlight("^w^\n");
-                Console.WriteLine("Answer\n" + answers[i]);
-                Highlight("^c^Press ENTER to go to next question >>>  ^g^");
+                Highlight("^s^Answer^w^\n" + answers[i]);
+                Highlight("^g^Press ENTER to go to next question >>>  ^l^");
                 Console.ReadLine();
                 Highlight("^w^\n");
             }
@@ -167,6 +176,12 @@
                         break;
                     case "g":
                         Console.ForegroundColor = ConsoleColor.DarkGray;
+                        break;
+                    case "l":
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        break;
+                    case "m":
+                        Console.ForegroundColor = ConsoleColor.Magenta;
                         break;
                     case "r":
                         Console.ForegroundColor = ConsoleColor.Red;
