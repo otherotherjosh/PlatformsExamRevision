@@ -2,7 +2,8 @@
 {
     internal class IWishIWasDead
     {
-        static int[] sections = new int[] { 1, 2, 3, 4, 5, 6 };
+        static int[] sections = new int[] { 1 };
+        // static int[] sections = new int[] { 1, 2, 3, 4, 5, 6 };
         static string[] questions = new string[0];
         static string[] answers = new string[0];
 
@@ -143,6 +144,7 @@
                         default:
                             if (!line.StartsWith("//"))
                             {
+                                if (line.Contains("//")) line = line.Substring(0, line.IndexOf("//"));
                                 if (question)
                                 {
                                     questions[questions.Length - 1] += line + "\n";
