@@ -87,3 +87,5 @@ Q.
 [Image from Study Questions 1] Identify the following adapter cards:
 A.
 Answer from Study Questions 1
+
+// end of questions

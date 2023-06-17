@@ -87,3 +87,5 @@ Q.
 Give an example of a close-ended question a computer technician might ask a customer. 
 A.
 Answer from Study Questions 2
+
+// end of questions

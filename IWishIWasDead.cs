@@ -141,13 +141,16 @@
                             Array.Resize(ref answers, answers.Length + 1);
                             break;
                         default:
-                            if (question)
+                            if (!line.StartsWith("//"))
                             {
-                                questions[questions.Length - 1] += line + "\n";
-                            }
-                            else if (answer)
-                            {
-                                answers[answers.Length - 1] += line + "\n";
+                                if (question)
+                                {
+                                    questions[questions.Length - 1] += line + "\n";
+                                }
+                                else if (answer)
+                                {
+                                    answers[answers.Length - 1] += line + "\n";
+                                }
                             }
                             break;
                     }
@@ -181,7 +184,7 @@
                 Highlight("^m^Question:^w^\n" + questions[i]);
                 Highlight("^g^\nPress ENTER to reveal answer >>>  ^l^");
                 Console.ReadLine();
-                Highlight("^w^\n");
+                Highlight("^w^\n\n");
                 Highlight("^s^Answer^w^\n" + answers[i]);
                 Highlight("^g^Press ENTER to go to next >>>  ^l^");
                 Console.ReadLine();
