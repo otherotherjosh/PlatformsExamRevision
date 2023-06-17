@@ -36,56 +36,85 @@ A.
 Q.
 What type of connector can be used to connect an internal hard drive to the motherboard?
 A.
-Answer from Study Questions 1
+Serial ATA (SATA)
 
 Q.
 Which factors (at least 2) must be considered when replacing old RAM modules in a PC?
 A.
-Answer from Study Questions 1
+- The new RAM must be compatible with the motherboard.
+- The speed of the new RAM must be supported by the chipset.
 
 Q.
 What is RAID 0?
 A.
-Answer from Study Questions 1
+Striping (This RAID type enables data to be distributed across multiple drives. 
+This provides a significant performance increase. However, since the data is distributed 
+across multiple drives, the failure of a single drive means that all data is lost.)
 
 Q.
 What is RAID 1?
 A.
-Answer from Study Questions 1
+Mirroring (This RAID type stores duplicate data on one or more other drives. 
+This provides redundancy so that the failure of a drive does not cause the loss of data. 
+The Mirror can be recreated by replacing the drive and restoring the data from the good drive.
 
 Q.
 What is a UPS used for?
 A.
-Answer from Study Questions 1
+Uninterruptible power supply (UPS) Helps protect against potential electrical power problems 
+by supplying a consistent level of electrical power to a computer or other device. 
+The UPS provides a consistent quality of power when brownouts and blackouts occur. 
 
 Q.
 What safety precautions should you take when working on a computer and its components?
 A.
-Answer from Study Questions 1
+- Remove your watch and jewelry and secure loose clothing.
+- Turn off the power and unplug equipment before performing service.
+- Cover sharp edges inside the computer case with tape.
+- Know where the fire extinguisher is located and how to use it.
+- Keep food and drinks out of your workspace.
+- Keep your workspace clean and free of clutter.
 
 Q.
 What is EMI and what could be a source?
 A.
-Answer from Study Questions 1
+Electromagnetic interference (EMI) can be caused by a variety of sources including electric motors and fluorescent lights
 
 Q.
 What is RFI and how could it affect a computer?
 A.
-Answer from Study Questions 1
+Radio frequency interference (RFI) is defined as any EMI with a frequency above 10 kHz.
+RFI can create disruptions in the functioning of electronic equipment and 
+can affect the quality of communications, transmissions, and playback.
 
 Q.
 What are the 4 basic units of electricity and their units of measurement?
 A.
-Answer from Study Questions 1
+- Voltage, Volts (V)
+- Resistance, Ohms (Ω)
+- Current, Amperes or Amps (A)
+- Power, Watts (W)
 
 Q.
 [Image from Study Questions 1] Name the parts numbered 1 to 10 on the motherboard:
 A.
-Answer from Study Questions 1
+1. RAM Slots
+2. SATA ports
+3. CPU Slot
+4. DVI port
+5. ATX 24 pin power port
+6. PCU 8 pin power port
+7. Audio ports
+8. PS2 mouse/keyboard port
+9. PCIe x16 Expansion Slot for Adapter Cards
+10. USB ports
 
 Q.
 [Image from Study Questions 1] Identify the following adapter cards:
 A.
-Answer from Study Questions 1
+Top Left - Sound card - The type of sound card installed determines the sound quality of your computer.
+Top Right - NIC - Customers often upgrade a network interface card (NIC) to get wireless connectivity or to increase bandwidth.
+Bottom Left - I/O card - Installing an I/O card in a computer is a fast and easy way to add I/O ports.
+Bottom Right - Graphics card - The type of graphics card installed affects the overall performance of a computer.
 
 // end of questions
