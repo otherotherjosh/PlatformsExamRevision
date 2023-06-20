@@ -1,4 +1,4 @@
-// Chapter 9, 10, and 11 questions
+// chapter 9, 10, and 11 questions
 
 Q.
 What are two advantages of using PC virtualization?
