@@ -3,22 +3,23 @@
 Q.
 What is meant by RAID 0 and RAID 1?
 A.
-Answer from Study Questions 2
+These are different levels of RAID that allow a computer to use multiple storage drives at the same time
 
 Q.
 Why would a laptop with 4Gs of memory be unsuitable to host a virtual Windows 10 machine?
 A.
-Answer from Study Questions 2
+THere would not be enough RAM to run both the laptop and the VM at the same time
 
 Q.
 Why would a computer need a 2nd hard drive?
 A.
-Answer from Study Questions 2
+Availability, reliability, capacity, and redundancy and/or performance improvement
+It may be more economical to create an array of smaller devices than it is to purchase a single device of the combined capacity
 
 Q.
 How does the POST indicate an error? 
 A.
-Answer from Study Questions 2
+With beep codes
 
 Q.
 What do the following acronyms stand for? 
@@ -26,12 +27,12 @@ What do the following acronyms stand for?
 - BIOS
 - UEFI
 A.
-Answer from Study Questions 2
+power-on self-test (POST), basic input/output system (BIOS), Unified Extensible Firmware Interface (UEFI)
 
 Q.
 What is the function of the BIOS?
 A.
-Answer from Study Questions 2
+BIOS is a ROM chip on the motherboard that controls the communication between the operating system and the hardware
 
 Q.
 What is UPS and how does it protect a computer?
