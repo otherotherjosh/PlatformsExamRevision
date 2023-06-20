@@ -37,56 +37,72 @@ BIOS is a ROM chip on the motherboard that controls the communication between th
 Q.
 What is UPS and how does it protect a computer?
 A.
-Answer from Study Questions 2
+Uninterruptible power supply (UPS) helps protect against potential electrical power 
+problems by supplying a consistent level of electrical power to a computer or other device.
 
 Q.
 What is a CMOS chip and what is its purpose?
 A.
-Answer from Study Questions 2
+Complementary Metal Oxide Semiconductor (CMOS) is the memory chip that saves the BIOS settings
 
 Q.
 Why is it recommended to use "Signed Drivers"? 
 A.
-Answer from Study Questions 2
+Digital signatures verify the integrity of driver packages and to verify the 
+identity of the vendor (software publisher) who provides the driver packages.
 
 Q.
 What is compressed air used for in computer maintenance?
 A.
-Answer from Study Questions 2
+Removing dust from the inside of a computer. 
+Clean the keyboard, mouse, and mouse sensor.
 
 Q.
 In what ways can environmental factors affect a computer?
 A.
-Answer from Study Questions 2
+Dusty environments, such as construction sites, requires more attention 
+than an office environment. Bad environments can cause overheating.
 
 Q.
 What are some tasks (at least 2) that could be included in a preventative maintenance plan?
 A.
-Answer from Study Questions 2
+- Clean/replace building air filters regularly to reduce the amount of dust in the air.
+- Use a cloth or a duster to clean the outside of the computer case. If using a cleaning 
+product, put a small amount onto a cleaning cloth and then wipe the outside of the case.
+- Remove dust from the inside of a computer using a combination of compressed air, 
+	a low-air-flow ESD vacuum cleaner, and a small lint-free cloth.
+- Use the lint-free cloth to remove any dust left behind on the component.
+- Review and install the appropriate security, software, and driver updates.
+- Update the virus definition files and scan for viruses and spyware.
+- Remove unwanted or unused programs. 
+- Scan hard drives for errors and defragment hard drives.
 
 Q.
 What action should be taken before troubleshooting a computer?
 A.
-Answer from Study Questions 2
+Identify the Problem, gather as much information as possible from the customer and from the computer.
 
 Q.
 After troubleshooting and fixing a problem with a computer, what 2 things should a computer technician do?
 A.
-Answer from Study Questions 2
+- Verify Full Functionality and Implement Preventive Measures
+- Document Findings, Actions, and Outcomes
 
 Q.
 What are some (at least 3) possible reasons a computer might not boot?
 A.
-Answer from Study Questions 2
+- Non-bootable disk in designated boot drive
+- Incorrect boot order in BIOS setup
+- No drives hold a boot disk
 
 Q.
 Give an example of an open-ended question a computer technician might ask a customer.
 A.
-Answer from Study Questions 2
+Could you explain to me what has been happening?
 
 Q.
 Give an example of a close-ended question a computer technician might ask a customer. 
 A.
-Answer from Study Questions 2
+When was the last time the computer worked correctly?
 
 // end of questions
