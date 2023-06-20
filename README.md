@@ -23,7 +23,7 @@ i ran out of things to say
 
 ---
 
-## New Features and Updates
+## New Features and Updates (Version 1.1)
 
 We have added a new functionality to the question answering process. Now, during any question, you can go back to the main menu by inputting "m". This new feature provides more flexibility during your revision process. 
 
