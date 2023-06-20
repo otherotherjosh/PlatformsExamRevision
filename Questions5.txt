@@ -1,20 +1,19 @@
-// chapter 9, 10 and 11 questions
+// Chapter 9, 10, and 11 questions
 
 Q.
 What are two advantages of using PC virtualization?
 A.
-Answer from Study Questions 5
+Improved resource utilization, easier software deployment.
 
 Q.
-A small company is considering moving many of its data center functions to the
-cloud. What are three advantages of this plan?
+A small company is considering moving many of its data center functions to the cloud. What are three advantages of this plan?
 A.
-Answer from Study Questions 5
+Scalability, cost savings, increased accessibility.
 
 Q.
 What difference is there between Type 1 and Type 2 hypervisors?
 A.
-Answer from Study Questions 5
+Type 1 hypervisors run directly on hardware, while Type 2 hypervisors run on top of an operating system.
 
 Q.
 What do the following acronyms stand for?
@@ -22,70 +21,66 @@ What do the following acronyms stand for?
 - IaaS
 - PaaS
 A.
-Answer from Study Questions 5
+SaaS: Software as a Service
+IaaS: Infrastructure as a Service
+PaaS: Platform as a Service
 
 Q.
 What are two advantages of the NTFS file system compared with FAT32?
 A.
-Answer from Study Questions 5
+File and folder security permissions, support for larger file sizes.
 
 Q.
 What do the acronyms CLI and GUI stand for?
 A.
-Answer from Study Questions 5
+CLI: Command Line Interface
+GUI: Graphical User Interface
 
 Q.
-What do the following terms mean
+What do the following terms mean?
 - Multithreading
 - Multiprocessing
 - Multiuse
 - Multitasking
 A.
-Answer from Study Questions 5
+Multithreading: Executing multiple threads simultaneously within a single process.
+Multiprocessing: Using multiple processors or cores to execute tasks simultaneously.
+Multiuse: The ability of a system to handle multiple users or tasks simultaneously.
+Multitasking: The ability of an operating system to run multiple applications or processes concurrently.
 
 Q.
-Which key, when pressed during the boot process, will allow the user to access boot
-options menu?
+Which key, when pressed during the boot process, will allow the user to access boot options menu?
 A.
-Answer from Study Questions 5
+The F8 key.
 
 Q.
-A technician has been asked to reinstall the OS on a computer that has a corrupted
-operating system. The technician inserts the installation media in the optical drive.
-What would be the most likely action the technician should perform next?
+A technician has been asked to reinstall the OS on a computer that has a corrupted operating system. The technician inserts the installation media in the optical drive. What would be the most likely action the technician should perform next?
 A.
-Answer from Study Questions 5
+Restart the computer and boot from the installation media.
 
 Q.
-A user reports that a PC is losing files, not opening some files, and is performing
-slowly. The technician suspects problems with the hard drive. What should be done
-to protect the data that is on the PC and to determine the source of the problem,
-without risking total drive failure?
+A user reports that a PC is losing files, not opening some files, and is performing slowly. The technician suspects problems with the hard drive. What should be done to protect the data that is on the PC and to determine the source of the problem, without risking total drive failure?
 A.
-Answer from Study Questions 5
+Create a backup of important files and run disk diagnostic tools to check for errors.
 
 Q.
-After solving a problem on a computer, a technician checks the event log to ensure
-that there are no new error messages. At which step of the troubleshooting process
-is this action taking place?
+After solving a problem on a computer, a technician checks the event log to ensure that there are no new error messages. At which step of the troubleshooting process is this action taking place?
 A.
-Answer from Study Questions 5
+Verifying the solution.
 
 Q.
-Give an example of a closed-ended question a technician may ask a user
-experiencing technical problems?
+Give an example of a closed-ended question a technician may ask a user experiencing technical problems.
 A.
-Answer from Study Questions 5
+"Is the error message you're seeing displayed in red?"
 
 Q.
-Give an example of an open-ended question a technician may ask a user
-experiencing technical problems?
+Give an example of an open-ended question a technician may ask a user experiencing technical problems.
 A.
-Answer from Study Questions 5
+"Can you describe in detail what happens when you try to access the network?"
 
 Q.
 Compare and contrast Windows Remote Desktop and Windows Remote Assistant.
 A.
-Answer from Study Questions 5
+Windows Remote Desktop allows remote access to a computer's desktop environment, while Windows Remote Assistant provides remote assistance and support to another user's computer.
 
 // end of questions

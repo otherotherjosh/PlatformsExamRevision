@@ -28,7 +28,10 @@
                 Highlight("\n\n\n>>> ");
 
                 userInput = ReadLower();
-                key = Convert.ToInt32(userInput);
+                if (!Int32.TryParse(userInput, out key)) // If the input can't be parsed to an integer, key will be zero.
+                {
+                    key = -1; // If userInput is not a number, set key to -1 (or any number that is not valid option)
+                }
                 switch (key)
                 {
                     default:
@@ -42,8 +45,17 @@
                         Console.Clear();
                         break;
                     case 1:
-                        GetQuestions(sections);
-                        Play();
+                        if (sections.Length == 0)
+                        {
+                            Console.Clear();
+                            Console.WriteLine("No question set selected! Please select a question set first.");
+                            Thread.Sleep(2000);
+                        }
+                        else
+                        {
+                            GetQuestions(sections);
+                            Play();
+                        }
                         break;
                     case 2:
                         QuestionSelect();
@@ -52,9 +64,9 @@
             } while (key != 0);
         }
 
+
         static void QuestionSelect()
         {
-            int temp;
             int key;
             string userInput;
             do
@@ -66,8 +78,12 @@
                 Highlight("\n^c^[1-6] ^w^Toggle questions");
                 Highlight("\n^r^[0] ^w^Back to menu");
                 Highlight("\n\n\n>>>  ^c^");
+
                 userInput = ReadLower();
-                key = Convert.ToInt32(userInput);
+                if (!Int32.TryParse(userInput, out key)) 
+                {
+                    key = -1; 
+                }
                 if (sections.Contains(key))
                 {
                     sections[Array.IndexOf(sections, key)] = sections[sections.Length - 1];
@@ -80,6 +96,7 @@
                 }
             } while (key != 0);
         }
+
 
         static void ShowQuestionSelect(string mode)
         {
@@ -230,8 +247,7 @@
                     fileName = @"../../../Questions6.txt";
                     break;
                 default:
-                    fileName = "../../../Questions6.txt";
-                    break;
+                    return null;
             }
             return fileName;
         }
