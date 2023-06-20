@@ -186,7 +186,7 @@
             int index1;
             int index2;
             Random rand = new Random();
-            for (int i  = 0; i < order.Length; i++)
+            for (int i = 0; i < order.Length; i++)
             {
                 index1 = rand.Next(order.Length);
                 do
@@ -201,12 +201,24 @@
             {
                 Console.Clear();
                 Highlight("^m^Question:^w^\n" + questions[i]);
-                Highlight("^g^\nPress ENTER to reveal answer >>>  ^l^");
-                Console.ReadLine();
+                Highlight("^g^\nPress ENTER to reveal answer, M for Main Menu >>>  ^l^");
+                string userInput = Console.ReadLine();
+
+                if (userInput.ToLower() == "m")
+                {
+                    return;
+                }
+
                 Highlight("^w^\n\n");
                 Highlight("^s^Answer^w^\n" + answers[i]);
-                Highlight("^g^Press ENTER to go to next >>>  ^l^");
-                Console.ReadLine();
+                Highlight("^g^Press ENTER to go to next, M for Main Menu >>>  ^l^");
+                userInput = Console.ReadLine();
+
+                if (userInput.ToLower() == "m")
+                {
+                    return;
+                }
+
                 Highlight("^w^\n");
             }
             if (questions.Length == 0)
@@ -222,6 +234,7 @@
                 Thread.Sleep(1000);
             }
         }
+
 
         static string GetFileName(int section)
         {
