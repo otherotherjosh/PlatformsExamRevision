@@ -22,6 +22,11 @@ What do the following stand for?
 - WLAN: Wireless Local Area Network
 - MAN: Metropolitan Area Network
 - LAN: Local Area Network
+A.
+- PAN (Personal Area Network) is a network for interconnecting devices centered around an individual person's workspace.
+- WLAN (Wireless Local Area Network) is a network that allows devices to connect and communicate wirelessly, typically in a localized environment like a home or office.
+- MAN (Metropolitan Area Network) is a network that interconnects users with computer resources in a geographic area or region larger than that covered by even a large Local Area Network (LAN) but smaller than the region covered by a Wide Area Network (WAN).
+- LAN (Local Area Network) is a group of computers and associated devices that share a common communications line or wireless link to a server within a distinct geographic area.
 
 Q.
 Describe what a MAC address is and how it is used.

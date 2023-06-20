@@ -80,16 +80,17 @@
                 Highlight("\n\n\n>>>  ^c^");
 
                 userInput = ReadLower();
-                if (!Int32.TryParse(userInput, out key)) 
+                if (!Int32.TryParse(userInput, out key))
                 {
-                    key = -1; 
+                    key = -1;
                 }
                 if (sections.Contains(key))
                 {
-                    sections[Array.IndexOf(sections, key)] = sections[sections.Length - 1];
-                    Array.Resize(ref sections, sections.Length - 1);
+                    List<int> tempSections = new List<int>(sections);
+                    tempSections.Remove(key);
+                    sections = tempSections.ToArray();
                 }
-                else if (key != 0)
+                else if (key > 0 && key <= 6)  // Ensuring the input is within the valid range
                 {
                     Array.Resize(ref sections, sections.Length + 1);
                     sections[sections.Length - 1] = key;
